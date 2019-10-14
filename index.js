@@ -50,30 +50,30 @@ $("h1").append("<button>New</button>");
 // $("button").remove();
 
 // Animation with jQuery
-//Hide Button
-// $("button").on("click", function(){
-//     $("h1").fadeOut();
-//     $("h1").fadeIn();
-// });
-// $("h1").hide();
-// $("h1").show();
-// $("h1").toggle();
-// $("h1").fadeOut();
-// $("h1").fadeIn();
-// $("h1").fadeToggle();
-// $("h1").slideUp();
-// $("h1").slideDown();
-// $("h1").slideToggle();
+Hide Button
+$("button").on("click", function(){
+    $("h1").fadeOut();
+    $("h1").fadeIn();
+});
+$("h1").hide();
+$("h1").show();
+$("h1").toggle();
+$("h1").fadeOut();
+$("h1").fadeIn();
+$("h1").fadeToggle();
+$("h1").slideUp();
+$("h1").slideDown();
+$("h1").slideToggle();
 
 // Define Animations:
-// Change Opacity
-// $("button").on("click", function(){ 
-//     $("h1").animate({opacity: 0.5});
+Change Opacity
+$("button").on("click", function(){ 
+    $("h1").animate({opacity: 0.5});
 
-// });
-// // Animate Margin
-// $("h1").animate({margin: 20});
-// $("h1").animate({margin: "20%"});
+});
+// Animate Margin
+$("h1").animate({margin: 20});
+$("h1").animate({margin: "20%"});
 
 // Chaining Animations
 $("button").on("click", function(){
